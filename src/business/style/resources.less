@@ -1,0 +1,28 @@
+/*
+ * 版权: Copyright (c) 2018 red
+ * 
+ * 文件: global.less
+ * 创建日期: Sunday September 30th 2018
+ * 作者: pao
+ * 说明:
+ * 1、全局资源
+ * 2、必须添加antd主题，不然换肤无效
+ */
+
+@import '~antd/lib/style/themes/default.less';
+
+:root {
+    // 定义CSS全局变量
+    --primaryColor: @primary-color;
+    --normalColor: @normal-color;
+    --fontTextColor: @white;
+}
+
+// 使用css变量修改antd-mobile的主题色
+.am-navbar {
+    background-color: var(--primaryColor) !important;
+}
+
+.ant-layout {
+    background: #F5F5F5 !important;
+}

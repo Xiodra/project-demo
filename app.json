@@ -1,0 +1,9 @@
+{
+    "staticDirectory": "./build",
+    "httpPort": 3000,
+    "httpsPort": 3010,
+    "httpsOption": {
+        "privateKeyPath": "./certificate/server.key",
+        "certificatePath": "./certificate/server.crt"
+    }
+}
