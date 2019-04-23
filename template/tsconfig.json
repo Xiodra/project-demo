@@ -1,25 +1,15 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "outDir": "./build/dist/client/",
+    "outDir": "build/dist",
     "module": "esnext",
     "target": "es5",
-    "rootDirs": [
-      "src"
-    ],
-    "lib": [
-      "esnext",
-      "es7",
-      "es6",
-      "es5",
-      "es2015.promise",
-      "es2015.generator",
-      "dom"
-    ],
+    "lib": ["es6", "dom"],
     "sourceMap": true,
     "allowJs": true,
     "jsx": "react",
     "moduleResolution": "node",
+    "rootDir": "src",
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
@@ -28,18 +18,15 @@
     "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true,
     "allowSyntheticDefaultImports": true,
-    "experimentalDecorators": true,
+    "experimentalDecorators": true
   },
   "exclude": [
     "node_modules",
     "build",
-    "build-server",
     "scripts",
-    "src-server",
     "acceptance-tests",
     "webpack",
     "jest",
-    "src/setupTests.ts",
-    "src/client/platform/clientCore.d.ts"
+    "src/setupTests.ts"
   ]
 }
