@@ -30,7 +30,6 @@ switch (script) {
       result = spawn.sync(
         'node',
         nodeArgs
-          .concat(require.resolve('react-app-rewired/scripts/' + script))
           .concat(['--scripts-version', myName])
           .concat(args.slice(scriptIndex + 1)),
         { stdio: 'inherit' }

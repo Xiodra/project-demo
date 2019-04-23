@@ -1,14 +1,14 @@
 {
-  "name": "react-scripts-ts-antd",
+  "name": "react-scripts-xiodra-project",
   "version": "2.17.0",
   "description": "Configuration and scripts for Create React App.",
-  "repository": "https://github.com/SZzzzz/react-scripts-ts-antd",
+  "repository": "https://github.com/Xiodra/react-scripts-xiodra-project",
   "license": "BSD-3-Clause",
   "engines": {
     "node": ">=6"
   },
   "bugs": {
-    "url": "https://github.com/SZzzzz/react-scripts-ts-antd/issues"
+    "url": "https://github.com/Xiodra/react-scripts-xiodra-project/issues"
   },
   "files": [
     "bin",
@@ -19,7 +19,7 @@
     "index.js"
   ],
   "bin": {
-    "react-scripts-ts-antd": "./bin/react-scripts-ts-antd.js"
+    "react-scripts-xiodra-project": "./bin/react-scripts-xiodra-project.js"
   },
   "dependencies": {
     "autoprefixer": "7.1.6",
